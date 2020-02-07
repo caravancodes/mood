@@ -1,4 +1,29 @@
 <resources>
+
+    <!-- Ads Banner Size -->
+    <string name="ads_size_banner" translatable="false">BANNER</string> <!-- 320x50dp -->
+    <string name="ads_size_large_banner" translatable="false">LARGE_BANNER</string> <!-- 320x100dp -->
+    <string name="ads_size_medium_rectangle" translatable="false">MEDIUM_RECTANGLE</string> <!-- 300x250dp -->
+    <string name="ads_size_full_banner" translatable="false">FULL_BANNER</string> <!-- 468x60dp -->
+    <string name="ads_size_leader_board" translatable="false">LEADERBOARD</string> <!-- 728x90dp -->
+    <string name="ads_size_smart_banner" translatable="false">SMART_BANNER</string> <!-- match_parent -->
+
+    <string name="about_frogobox" translatable="false">Frogobox Software Industry</string>
+    <string name="title_about_us" translatable="false">toolbar_about_us</string>
+    <string name="title_copyright" translatable="false">Copyright</string>
+    <string name="text_copyright" translatable="false">We take photos from Google search and we include photo links and website links.</string>
+    <string name="about_copyright" translatable="false">© Copyright 2020</string>
+    <string name="dummyLong" translatable="false">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam veniam similiquevoluptates odit, ipsum laborum architecto distinctio harum, provident fugiat praesentium ex quod doloreslaudantium aliquid quidem placeat incidunt vitae!</string>
+    <string name="dummy" translatable="false">Dummy</string>
+
+    <string name="dialog_button_yes" translatable="false">Yes</string>
+    <string name="dialog_button_no" translatable="false">No</string>
+    <string name="dialog_title_delete" translatable="false">Delete Data</string>
+    <string name="dialog_message_delete" translatable="false">Are you sure you want to delete data?</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment" translatable="false">Hello blank fragment</string>
+
     <string name="text_click_me">Click Me</string>
     <string name="text_how">How are you?</string>
     <string name="text_happy">I am happy</string>
