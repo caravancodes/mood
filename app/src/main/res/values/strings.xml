@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Mood</string>
+    <string name="text_click_me">Click Me</string>
+    <string name="text_how">How are you?</string>
+    <string name="text_happy">I am happy</string>
+    <string name="text_cheerful">I am cheerful</string>
+    <string name="text_fantastic">Fantastic</string>
+    <string name="text_hello">Hello,</string>
+</resources>

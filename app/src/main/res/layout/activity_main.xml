@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorWhite"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dimen_weight">
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/circle_material_header_top"/>
+
+            <LinearLayout
+                android:layout_centerInParent="true"
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_gravity="center"
+                    android:id="@+id/text_hello"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/text_hello"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="24sp" />
+
+                <TextView
+                    android:textColor="@color/colorWhite"
+                    android:layout_gravity="center"
+                    android:id="@+id/text_how"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/text_how"
+                    android:textSize="30sp"
+                    android:textStyle="bold|italic"/>
+
+            </LinearLayout>
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dimen_weight">
+
+            <Button
+                android:background="@drawable/box_border_button_action"
+                android:layout_margin="@dimen/dimen_big"
+                android:textColor="@color/colorWhite"
+                android:layout_alignParentBottom="true"
+                android:id="@+id/button_mood"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/text_click_me"/>
+
+            <TextView
+                android:layout_centerHorizontal="true"
+                android:layout_above="@id/button_mood"
+                android:textColor="@color/colorBlack"
+                android:layout_gravity="center"
+                android:id="@+id/textViewMood"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                tools:text="@string/text_cheerful"
+                android:textStyle="italic|bold"
+                android:layout_marginBottom="@dimen/dimen_big"/>
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_centerInParent="true"
+        android:layout_width="@dimen/dimen_image"
+        android:layout_height="@dimen/dimen_image"
+        android:src="@drawable/circle_image"/>
+
+    <ImageView
+        android:layout_centerInParent="true"
+        android:id="@+id/imageViewMood"
+        android:layout_width="@dimen/dimen_image"
+        android:layout_height="@dimen/dimen_image" />
+
+</RelativeLayout>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+ * Created by 
+ * FrogoBox Inc License
+ * =========================================
+ * 
+ * Copyright (C) .      
+ * All rights reserved
+ * 
+ * Name     : Muhammad Faisal Amir
+ * E-mail   : faisalamircs@gmail.com
+ * Line     : bullbee117
+ * Phone    : 081357108568
+ * Majors   : D3 Teknik Informatika 2016
+ * Campus   : Telkom University
+ * 
+ * id.amirisback.frogobox
+ * 
+ -->
+
+<resources>
+    <string name="app_name">Mood</string>
+    <string name="text_click_me">Click Me</string>
+    <string name="text_how">How are you?</string>
+    <string name="text_happy">I am happy</string>
+    <string name="text_cheerful">I am cheerful</string>
+    <string name="text_fantastic">Fantastic</string>
+    <string name="text_hello">Hello,</string>
+</resources>
